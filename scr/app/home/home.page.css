@@ -1,0 +1,20 @@
+ion-content {
+  --background: #f4f4f4;
+}
+
+ion-text h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ion-button {
+  margin: 10px 0;
+  --border-radius: 8px;
+}
+
+ion-text p {
+  font-size: 1em;
+  color: #555;
+  margin-top: 20px;
+}

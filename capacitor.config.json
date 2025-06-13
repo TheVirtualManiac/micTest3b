@@ -1,0 +1,12 @@
+{
+  "appId": "com.example.testapp",
+  "appName": "TestApp",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "ios": {
+    "infoPlist": {
+      "NSSpeechRecognitionUsageDescription": "This app needs speech recognition to function.",
+      "NSMicrophoneUsageDescription": "This app needs microphone access to function."
+    }
+  }
+}

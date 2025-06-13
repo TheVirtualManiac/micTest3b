@@ -1,0 +1,26 @@
+{
+  "name": "mictest3b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheVirtualManiac/micTest3b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TheVirtualManiac/micTest3b/issues"
+  },
+  "homepage": "https://github.com/TheVirtualManiac/micTest3b#readme",
+  "dependencies": {
+    "@capacitor/cli": "^7.3.0",
+    "@capacitor/core": "^7.3.0",
+    "@ionic/core": "^8.6.1"
+  }
+}
