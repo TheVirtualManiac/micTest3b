@@ -1,0 +1,25 @@
+stages:
+  - install
+  - build
+  - deploy
+
+install_dependencies:
+  stage: install
+  script:
+    - npm install
+    - npm install @capacitor/core @capacitor/cli
+    - npm install @capacitor-community/text-to-speech @capacitor-community/speech-recognition
+  artifacts:
+    paths:
+      - node_modules/
+
+cap_sync:
+  stage: build
+  script:
+    - npx cap sync
+  dependencies:
+    - install_dependencies
+  artifacts:
+    paths:
+      - android/
+      - ios/ 
